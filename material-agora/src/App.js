@@ -1,6 +1,20 @@
+import { Route, Switch } from 'react-router-dom'
+
 function App() {
   return (
-    <h1>Hello World!</h1>
+    <Switch>
+      <Route path='/heros'>
+
+      </Route>
+
+      <Route path='/heros/:heroId'>
+        
+      </Route>
+
+      <Route path='/groups'>
+        
+      </Route>
+    </Switch>
   );
 }
 
