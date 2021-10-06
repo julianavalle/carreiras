@@ -8,7 +8,7 @@ const Layout = (props) =>{
     return <Fragment>
         <Header />
         <main className={classes.main}>{props.children}
-            <HeroesCards />
+            {/* <HeroesCards /> */}
         </main>
 
     </Fragment>

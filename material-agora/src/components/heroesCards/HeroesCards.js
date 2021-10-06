@@ -62,17 +62,28 @@ const HEROES = [
 ];
 
 const HeroesCards = () => {
-    const heroesList = HEROES.map(hero => <HeroItem key={hero.id} name={hero.name}/>);
+    const heroesList = HEROES.map(hero => <HeroItem key={hero.id} name={hero.name} aliases={hero.aliases}/>);
 
-    return <section className={classes.heroes}>
-        <div>
-            <Card>
-                <div>
-                    {heroesList}
-                </div>
-            </Card>
+    return (
+        <div className={classes.heroes}>
+            <div>
+                <Card className={classes.card}>
+                    <div>
+                        {heroesList}
+                    </div>
+                </Card>
+            </div>
+
+            <div>
+                <Card className={classes.card}>
+                    <div>
+                        {heroesList}
+                    </div>
+                </Card>
+            </div>
+            
         </div>
-    </section>
+    );
 };
 
 export default HeroesCards;

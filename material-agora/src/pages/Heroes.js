@@ -1,5 +1,7 @@
+import HeroesCards from "../components/heroesCards/HeroesCards";
+
 const Heroes = () => {
-    return <h1>Heroes Page</h1>
+    return <HeroesCards />
 };
 
 export default Heroes;

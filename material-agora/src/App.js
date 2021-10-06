@@ -3,6 +3,7 @@ import { Route, Switch, Redirect } from 'react-router-dom';
 import Heroes from './pages/Heroes';
 import Details from './pages/Details';
 import Groups from './pages/Groups';
+
 import Layout from './components/layout/Layout';
 
 function App() {
