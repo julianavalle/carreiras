@@ -9,7 +9,7 @@ const Header = props =>{
         <nav className={classes.nav}>
             <ul>
                 <li>
-                    <NavLink to='/heros' activeClassName={classes.active}>All Heros</NavLink>
+                    <NavLink to='/heroes' activeClassName={classes.active}>All Heroes</NavLink>
                 </li>
 
                 <li>

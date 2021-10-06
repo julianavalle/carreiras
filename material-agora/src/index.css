@@ -3,10 +3,12 @@
   }
   
   body {
-    font-family: sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
     margin: 0;
     background-color: #0b0e11;
     color: #EAECEF
+    
   }
   
   .centered {
@@ -20,16 +22,16 @@
   .focused {
     font-size: 3rem;
     font-weight: bold;
-    color: whiEAECEFte;
+    color: #EAECEF;
   }
   
   .btn {
     text-decoration: none;
-    background-color: teal;
-    color: EAECEF;
+    background-color: #FF4656;
+    color: #EAECEF;
     border-radius: 4px;
     padding: 0.75rem 1.5rem;
-    border: 1px solid FF4656;
+    border: 1px solid #FF4656;
     cursor: pointer;
   }
   
@@ -52,6 +54,6 @@
   
   .btn--flat:hover,
   .btn--flat:active {
-    background-color: FF4656;
-    color: EAECEF;
+    background-color: #FF4656;
+    color: #EAECEF;
   }

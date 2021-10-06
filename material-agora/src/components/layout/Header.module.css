@@ -5,7 +5,9 @@
     padding: 0 10%;
     justify-content: space-between;
     align-items: center;
-    background-color: #181a20;
+    background-color: #1F2326;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
   }
   
   .logo {
@@ -22,7 +24,7 @@
   
   .nav li {
     margin-left: 1.5rem;
-    font-size: 1.25rem;
+    font-size: 1rem;
   }
   
   .nav a {

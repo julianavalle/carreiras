@@ -1,6 +1,6 @@
 import { Route, Switch, Redirect } from 'react-router-dom';
 
-import Heros from './pages/Heros';
+import Heroes from './pages/Heroes';
 import Details from './pages/Details';
 import Groups from './pages/Groups';
 import Layout from './components/layout/Layout';
@@ -10,14 +10,14 @@ function App() {
     <Layout>
       <Switch>
         <Route path='/' exact>
-          <Redirect to='heros' />
+          <Redirect to='heroes' />
         </Route>
 
-        <Route path='/heros' exact>
-          <Heros />
+        <Route path='/heroes' exact>
+          <Heroes />
         </Route>
 
-        <Route path='/heros/:heroId'>
+        <Route path='/heroes/:heroId'>
           <Details />
         </Route>
 
